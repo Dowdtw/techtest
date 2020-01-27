@@ -29,6 +29,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	console.log(queryParams);
 	const splitParams = queryParams.split('&')
 	console.log(splitParams);
+	const removeEquals = splitParams.split('=')
+	const removeQuestion = removeEquals.replace(?,'');
+	console.log(removeQuestion);
+	
 </script>
 	
   <p>tech test</p>
