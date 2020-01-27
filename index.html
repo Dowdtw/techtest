@@ -27,9 +27,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
 	const queryParams = window.location.search;
 	console.log(queryParams);
-	const splitParams = queryParams.split('&')
-	console.log(splitParams);
-	const removeEquals = splitParams.split('=')
+	const splittingParams = queryParams.split('&')
+	console.log(splittingParams);
+	const removeEquals = splittingParams.split('=')
 	const removeQuestion = removeEquals.replace('?','');
 	console.log(removeQuestion);
 	
