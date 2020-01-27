@@ -1,3 +1,3 @@
-const myData = dataLayer.push({queryParams});
+dataLayer.push({queryParams});
 
-console.log(myData);
+
